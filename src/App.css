@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.bttn{
+  width: 148px;
+  height: 45px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 2px 2px 5px grey;
+  margin: 20px;
+  color: white;
+  /* padding: 10px; */
+}
+.bttn:hover{
+  width: 150px;
+  height: 47px;
+  color: black;
+  box-shadow: 3px 2px 5px grey;
+}
