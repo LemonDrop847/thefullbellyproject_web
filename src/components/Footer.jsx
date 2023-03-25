@@ -47,6 +47,18 @@ const Foots = () => {
                         <Link to="#home" className="ll">FAQ</Link><br/>
                         <Link to="#home" className="ll">Help</Link><br/>
                     </div>
+                    <hr />
+                    <div className="row">
+                        <div className="col">
+                            <p>FullBelly&#169;2023. All rights reserved</p>
+                        </div>
+                        <div className="col">
+                            <p>Privacy Policy</p>
+                        </div>
+                        <div className="col">
+                            <p>Terms & conditions</p>
+                        </div>
+                    </div>
                 </div>  
         </footer>
      );
