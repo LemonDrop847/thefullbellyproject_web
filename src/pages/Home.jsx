@@ -1,5 +1,6 @@
 import "./styles/Home.css";
 import Card from 'react-bootstrap/Card';
+import Foots from "../components/Footer";
 
 const Home = () => {
     return ( 
@@ -162,8 +163,8 @@ const Home = () => {
                         </Card>
                     </div>
                 </div>
-
             </div>
+            <Foots/>
         </div>
      );
 }

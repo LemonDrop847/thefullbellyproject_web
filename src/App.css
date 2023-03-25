@@ -45,7 +45,6 @@
   box-shadow: 2px 2px 5px grey;
   margin: 20px 20px 20px 0;
   color: white;
-  /* padding: 10px; */
 }
 .bttn:hover{
   width: 150px;
@@ -61,4 +60,14 @@
 }
 img{
   max-width: fit-content;
+}
+#footer{
+  background-color: #282c34;
+  color: #fff;
+  padding: 2rem;
+  text-align: left;
+}
+.ll{
+  text-decoration: none;
+  color: #66748e;
 }
