@@ -19,6 +19,7 @@
 }
 h1{
     font-family: 'Alkatra', cursive;
+    font-size: 50px;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -40,4 +41,10 @@ h3{
 }
 .img-fluid{
     max-height: 350px;
+}
+.galimg{
+    margin: 3rem;
+    max-width: 350px;
+    border-radius: 20px 0 20px 0;
+    /* padding: 1rem; */
 }
