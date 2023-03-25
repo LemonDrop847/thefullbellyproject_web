@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Roboto:wght@300&display=swap');
+.adjust{
+    margin-top: 2rem;
+    padding-top: 4rem;
+    text-align: left;
+}
+h1{
+    font-family: 'Alkatra', cursive;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+#gallery{
+    background-color: #EFD8BB;
+}
+.home-btn{
+    background-color: rgb(253, 97, 97);
+}
