@@ -19,7 +19,7 @@ const NavBar = () => {
                     <Nav.Link eventKey={2} href="#gallery">
                     Gallery
                     </Nav.Link>
-                    <Nav.Link href="#home">Blogs</Nav.Link>
+                    <Nav.Link href="#blogs">Blogs</Nav.Link>
                     <Nav.Link href="#hero">Get Involed</Nav.Link>
                     <Nav.Link href="#home">About Us</Nav.Link>
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
