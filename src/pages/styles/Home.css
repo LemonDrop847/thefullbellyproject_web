@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital@1&display=swap');
+
+
+
 .adjust{
-    margin-top: 2rem;
+    /* overflow: auto; */
+    /* margin:2rem 4rem 0 4rem; */
     padding-top: 4rem;
     text-align: left;
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
+}
+.adjust1{
+    /* margin:2rem 0rem 0 0rem; */
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    /* text-align: left; */
 }
 h1{
     font-family: 'Alkatra', cursive;
 }
 p{
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 h3{
     font-family: 'Roboto', sans-serif;
@@ -19,4 +33,11 @@ h3{
 }
 .home-btn{
     background-color: rgb(253, 97, 97);
+}
+#ita{
+    font-family: 'Simonetta', cursive;
+    font-size: 20px;
+}
+.img-fluid{
+    max-height: 350px;
 }
