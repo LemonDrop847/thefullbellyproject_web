@@ -71,3 +71,11 @@ img{
   text-decoration: none;
   color: #66748e;
 }
+.adjust{
+  /* overflow: auto; */
+  /* margin:2rem 4rem 0 4rem; */
+  padding-top: 4rem;
+  text-align: left;
+  /* padding-left: 2rem; */
+  /* padding-right: 2rem; */
+}
