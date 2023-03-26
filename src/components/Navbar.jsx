@@ -6,7 +6,7 @@ const NavBar = () => {
     return ( 
         <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">FullBelly</Navbar.Brand>
+                <Navbar.Brand href="./#home">FullBelly</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -15,13 +15,13 @@ const NavBar = () => {
                     
                 </Nav>
                 <Nav>
-                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="./#home">Home</Nav.Link>
                     <Nav.Link eventKey={2} href="#gallery">
                     Gallery
                     </Nav.Link>
-                    <Nav.Link href="#blogs">Blogs</Nav.Link>
-                    <Nav.Link href="#hero">Get Involed</Nav.Link>
-                    <Nav.Link href="#home">About Us</Nav.Link>
+                    <Nav.Link href="./#blogs">Blogs</Nav.Link>
+                    <Nav.Link href="./#hero">Get Involed</Nav.Link>
+                    <Nav.Link href="./about">About Us</Nav.Link>
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">
