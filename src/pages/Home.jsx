@@ -1,5 +1,4 @@
 import "./styles/Home.css";
-import Card from 'react-bootstrap/Card';
 import Foots from "../components/Footer";
 import News from "../components/News";
 
@@ -22,7 +21,7 @@ const Home = () => {
                 </div>
                 <div className="row adjust" style={{marginBottom:"8rem"}}>
                     <div className="col">
-                        <img style={{height:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
+                        <img style={{maxHeight:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
                     </div>
                     <div className="col">
                         <h1>Our Vision</h1>
