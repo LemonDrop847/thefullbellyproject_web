@@ -21,7 +21,7 @@ const About = () => {
                         <img style={{maxHeight:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
                     </div>
                 </div>
-                <div className="row ">
+                <div className="row adjust">
                     <h2>Our Vision</h2>
                     <div className="sub adjust">
 
@@ -87,7 +87,7 @@ const About = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="row">
+                <div className="row adjust">
                     <div className="col">
                         <h1>Contact Us</h1>
                         <p>2464 Royal Ln. Mesa, New Jersey 45463 <br/>
@@ -129,8 +129,8 @@ const About = () => {
                     <div className="App">
                         <Accordion>
                             <Accordion.Item eventKey="0">
-                            <Accordion.Header>Accordion Item #1</Accordion.Header>
-                            <Accordion.Body>
+                            <Accordion.Header>What is Full Belly project?</Accordion.Header>
+                            <Accordion.Body style={{textAlign:"left"}}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                                 ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -142,7 +142,7 @@ const About = () => {
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                             <Accordion.Header>Accordion Item #2</Accordion.Header>
-                            <Accordion.Body>
+                            <Accordion.Body style={{textAlign:"left"}}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                                 ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
