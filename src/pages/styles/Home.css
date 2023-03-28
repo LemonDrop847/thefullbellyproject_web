@@ -41,3 +41,19 @@ h3{
     border-radius: 20px 0 20px 0;
     /* padding: 1rem; */
 }
+.goals{
+    margin: 1rem;
+    max-width: 150px;
+}
+#goal1{
+    border-radius: 0 45px 0 45px;
+}
+#goal2{
+    border-radius: 45px 0 45px 0;
+}
+#goal3{
+    border-radius: 45px 0 45px 0;
+}
+#goal4{
+    border-radius: 0 45px 0 45px;
+}
