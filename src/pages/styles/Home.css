@@ -3,7 +3,9 @@
 
 
 
-
+#home{
+    background-color: #fbfbfb;
+}
 .adjust1{
     /* margin:2rem 0rem 0 0rem; */
     padding-top: 4rem;
@@ -13,10 +15,12 @@
 h1{
     font-family: 'Alkatra', cursive;
     font-size: 50px;
+    color: #A74217;
 }
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    /* color: #FD9D24; */
 }
 h3{
     font-family: 'Roboto', sans-serif;
