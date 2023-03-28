@@ -81,7 +81,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="col" style={{textAlign:"center"}}>
-                        <img style={{height:"350px"}} src="https://i.postimg.cc/Y94cpGJK/process-1.jpg" alt="" />
+                        <img style={{maxHeight:"350px",maxWidth:"480px"}} src="https://i.postimg.cc/Y94cpGJK/process-1.jpg" alt="" />
                     </div>
                 </div>
                 <div className="row adjust" id="blogs">
