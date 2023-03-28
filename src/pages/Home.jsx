@@ -1,6 +1,7 @@
 import "./styles/Home.css";
 import Foots from "../components/Footer";
 import News from "../components/News";
+import Gallery from "../components/gallery";
 
 const Home = () => {
     return ( 
@@ -15,13 +16,17 @@ const Home = () => {
                         </p>
                         <button className="bttn home-btn">Learn More</button>
                     </div>
-                    <div className="col">
-                        <img style={{maxHeight:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
+                    <div className="col"style={{textAlign:"center"}}>
+                        <img style={{maxHeight:"400px",marginLeft:"2rem",zIndex:"5"}} src="https://i.postimg.cc/mkMSjBFF/Untitled-design.png" alt="" />
                     </div>
                 </div>
                 <div className="row adjust" style={{marginBottom:"8rem"}}>
                     <div className="col">
-                        <img style={{maxHeight:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
+                                <img className="goals" id="goal1" src="https://i.postimg.cc/1RdVzG64/goal-01-480-2.png" alt="" />
+                                <img className="goals" id="goal2" src="https://i.postimg.cc/d0Pkwwb1/20EE-1.jpg" alt="" />
+                                <br/>
+                                <img  className="goals" id="goal3" src="https://i.postimg.cc/D0Hf6cFZ/goal-11-480-1.png" alt="" />
+                                <img className="goals" id="goal4" src="https://i.postimg.cc/qvX06rtg/goal-12-480-2.png" alt="" />
                     </div>
                     <div className="col">
                         <h1>Our Vision</h1>
@@ -33,20 +38,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="row adjust1" id="gallery">
-                <h1>Photo Gallery</h1>
-                <h4>See the smile brought by your attention</h4>
-                <div className="col">
-                    <img className="galimg" src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
-                    <br />
-                    <img className="galimg" src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
-                    </div>
-                    <div className="col">
-                    <img className="galimg" src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
-                    <br />
-                    <img className="galimg" src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
-                </div>
-            </div>
+            <Gallery/>
             <div className="container">
                 <div className="row adjust" id="hero">
                     <div className="col">
@@ -58,13 +50,14 @@ const Home = () => {
                         <button className="bttn home-btn">As NGOs</button>
                         <button className="bttn home-btn ">As individual</button>
                     </div>
-                    <div className="col">
-                        <img style={{height:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
+                    <div className="col" style={{textAlign:"right"}}>
+                        <img style={{height:"350px"}} src="https://i.postimg.cc/bY2pQWd0/sts2.png" alt="" />
+                        {/* <img style={{height:"350px"}} src="https://i.postimg.cc/nc7gztr5/sts-1.png" alt="" /> */}
                     </div>
                 </div>
                 <div className="row adjust">
-                    <div className="col">
-                        <img style={{height:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
+                    <div className="col" >
+                        <img style={{height:"350px",borderRadius:"12px"}} src="https://i.postimg.cc/2y3sSqMN/gallery-light5-1.jpg" alt="" />
                     </div>
                     <div className="col">
                         <h1>HOW FULLBELLY APP WORKS </h1>
@@ -87,8 +80,8 @@ const Home = () => {
                             <br/>                
                         </p>
                     </div>
-                    <div className="col">
-                        <img style={{height:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
+                    <div className="col" style={{textAlign:"center"}}>
+                        <img style={{height:"350px"}} src="https://i.postimg.cc/Y94cpGJK/process-1.jpg" alt="" />
                     </div>
                 </div>
                 <div className="row adjust" id="blogs">
