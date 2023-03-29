@@ -8,7 +8,7 @@
 }
 .adjust1{
     /* margin:2rem 0rem 0 0rem; */
-    padding-top: 4rem;
+    padding-top: 8.5rem;
     padding-bottom: 2rem;
     /* text-align: left; */
 }
@@ -24,7 +24,7 @@ p{
 }
 h3{
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 #gallery{
     background-color: #EFD8BB;

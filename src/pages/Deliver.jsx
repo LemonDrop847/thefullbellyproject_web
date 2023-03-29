@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { db } from "../components/services/firebase";
 import { onSnapshot, collection, orderBy , query , limit } from "firebase/firestore";
 import Foots from "../components/Footer";
+import "./styles/deliver.css";
+import Badge from 'react-bootstrap/Badge';
 
 const Deliver = () => {
   const [posts, setPosts] = useState([]);
@@ -28,7 +30,7 @@ const Deliver = () => {
     <>
       {posts.map((post) => (
         <div className="container" key={post.id}>
-          <div className="row adjust">
+          <div className="row bx">
             <div className="col">
               <img
                 style={{ maxHeight: "200px" }}
@@ -36,7 +38,8 @@ const Deliver = () => {
                 alt=""
               />
             </div>
-            <div className="col">
+            <div className="col" style={{textAlign:"left"}}>
+              <Badge style={{float:"right"}} bg='success'><h5>Successful</h5></Badge>
               <h3>Fed {post.quantity}</h3>
               <h3>Location: {post.location}</h3>
               <h3>At: {post.timestamp.toDate().toDateString()}</h3>
