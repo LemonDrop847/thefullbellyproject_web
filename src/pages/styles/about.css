@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital@1&display=swap');
+.goals1{
+    float: right;
+    margin: 0 1rem 1rem 1rem;
+    max-height: 200px;
+    border-radius: 10px;
+}
+.goals2{
+    float: left;
+    margin: 0 1rem 1rem 1rem;
+    max-height: 200px;
+    border-radius: 10px;
+}
+p{
+    font-weight: 500;
+    font-size: 20px;
+}
+h2{
+    font-family: 'Alkatra', cursive;
+    font-size: 42px;
+}
+.children{
+    border-radius: 20px;
+}
