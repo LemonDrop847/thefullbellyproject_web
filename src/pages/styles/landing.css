@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+.landing{
+    height: 95vh;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(129.03deg, #FF0707 22.61%, rgba(225, 230, 94, 0.822) 88.06%);
+}
+.title{
+    float: left;
+    font-family: 'Ultra', serif;
+    font-size: 80px;
+    color: #FFF;
+    margin-top: 80px;
+    text-align: left;
+}
+#land-txt{
+    margin-top: 3rem;
+    float: left;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Ultra', serif;
+}
+#scro{
+    /* margin-bottom: 2rem; */
+    position: absolute;
+    cursor: pointer;
+    /* width: 500px; */
+    bottom: 2rem;
+    border-radius: 55px;
+}
+#scro:hover{
+    box-shadow: 2px 2px grey;
+}
