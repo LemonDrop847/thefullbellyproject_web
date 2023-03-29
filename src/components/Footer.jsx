@@ -5,7 +5,7 @@ const Foots = () => {
         <footer>
                 <div className="row" id="footer">
                     <div className="col">
-                        <h1>FullBelly</h1>
+                        <h1 style={{color:"#FFF"}}>FullBelly</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.. Exercitation veniam consequat sunt nostrud amet.</p>
                         <div className="row">
                             <div className="col">
