@@ -3,7 +3,9 @@
 
 
 
-
+#home{
+    background-color: #fbfbfb;
+}
 .adjust1{
     /* margin:2rem 0rem 0 0rem; */
     padding-top: 4rem;
@@ -13,10 +15,12 @@
 h1{
     font-family: 'Alkatra', cursive;
     font-size: 50px;
+    color: #A74217;
 }
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    /* color: #FD9D24; */
 }
 h3{
     font-family: 'Roboto', sans-serif;
@@ -36,8 +40,24 @@ h3{
     max-height: 350px;
 }
 .galimg{
-    margin: 3rem;
+    margin: 2.5rem;
     max-width: 350px;
     border-radius: 20px 0 20px 0;
     /* padding: 1rem; */
+}
+.goals{
+    margin: 1rem;
+    max-width: 150px;
+}
+#goal1{
+    border-radius: 0 45px 0 45px;
+}
+#goal2{
+    border-radius: 45px 0 45px 0;
+}
+#goal3{
+    border-radius: 45px 0 45px 0;
+}
+#goal4{
+    border-radius: 0 45px 0 45px;
 }
