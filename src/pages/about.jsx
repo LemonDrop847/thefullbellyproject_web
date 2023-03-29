@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import { Accordion } from "react-bootstrap";
 import Foots from '../components/Footer';
+import "./styles/about.css";
 
 const About = () => {
     return ( 
@@ -15,32 +16,32 @@ const About = () => {
                 </div>
                 <div className="row adjust">
                     <div className="col">
-                        <img style={{maxHeight:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
+                        <img className="children"style={{maxHeight:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
                     </div>
                     <div className="col">
-                        <img style={{maxHeight:"350px"}} src="https://i.postimg.cc/Prw6rwpw/a3ee095fdba51b3503f6fa41b811564a.jpg" alt="" />
+                        <img className="children"style={{maxHeight:"350px"}} src="https://i.postimg.cc/j5sjMXz2/img2.jpg" alt="" />
                     </div>
                 </div>
                 <div className="row adjust">
                     <h2>Our Vision</h2>
                     <div className="sub adjust">
 
-                    <img style={{maxHeight:"200px",float:"right"}}src="https://i.postimg.cc/VvHjs9FH/goal-11-480.png" alt="" />
+                    <img className="goals1"src="https://i.postimg.cc/1RdVzG64/goal-01-480-2.png" alt="" />
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div className="sub adjust">
 
-                    <img style={{maxHeight:"200px",float:"left"}}src="https://i.postimg.cc/VvHjs9FH/goal-11-480.png" alt="" />
+                    <img className="goals2"src="https://i.postimg.cc/d0Pkwwb1/20EE-1.jpg" alt="" />
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div className="sub adjust">
 
-                    <img style={{maxHeight:"200px",float:"right"}}src="https://i.postimg.cc/VvHjs9FH/goal-11-480.png" alt="" />
+                    <img className="goals1"src="https://i.postimg.cc/D0Hf6cFZ/goal-11-480-1.png" alt="" />
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div className="sub adjust">
 
-                    <img style={{maxHeight:"200px",float:"left"}}src="https://i.postimg.cc/VvHjs9FH/goal-11-480.png" alt="" />
+                    <img className="goals2"src="https://i.postimg.cc/qvX06rtg/goal-12-480-2.png" alt="" />
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
@@ -158,8 +159,8 @@ const About = () => {
                         <h2>Start editing to see some magic happen!</h2> */}
                         </div>
                 </div>
-            <Foots/>
             </div>
+            <Foots/>
         </>
      );
 }

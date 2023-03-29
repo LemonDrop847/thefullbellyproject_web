@@ -6,12 +6,15 @@ const NavBar = () => {
     return ( 
         <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="./#home">ShareTheSpare</Navbar.Brand>
+                <Navbar.Brand href="./#home">
+                    <img style={{maxHeight:"50px"}} src="https://i.postimg.cc/cL7mn4XS/logo.png" alt="" />
+                    &nbsp;FullBelly
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     
-                    <Nav.Link href="#link">Link</Nav.Link>
+                    {/* <Nav.Link href="#link">Link</Nav.Link> */}
                     
                 </Nav>
                 <Nav>

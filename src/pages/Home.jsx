@@ -86,15 +86,14 @@ const Home = () => {
                 </div>
                 <div className="row adjust" id="blogs">
                     <div className="col">
-                        <h1>News and Updates</h1>
+                        <h1>Latest Campaign</h1>
                     </div>
                     <div className="col">
                     <p>
 
-                        <strong>Stay informed with the latest developments on charity campaigns to
-                        keep you engaged.</strong>
+                        <strong>FEEDING  THE NEEDY MASSES   ALL AROUND THE CORNERS TO ACHIEVE SUSTAINABLE GOALS.</strong>
                         <br />
-                        <button className="bttn home-btn">See all news</button>
+                        {/* <button className="bttn home-btn">See all news</button> */}
                     </p>
                     </div>
                 </div>
