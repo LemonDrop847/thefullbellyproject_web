@@ -26,7 +26,7 @@ const NavBar = () => {
                     <Nav.Link href="./#hero">Get Involed</Nav.Link>
                     <Nav.Link href="./about">About Us</Nav.Link>
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/deliver">Stats</NavDropdown.Item>
+                        <NavDropdown.Item href="/deliver">Logs</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">
                             Another action
                         </NavDropdown.Item>
