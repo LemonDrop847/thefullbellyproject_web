@@ -7,8 +7,8 @@ const NavBar = () => {
         <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand href="./#home">
-                    <img style={{maxHeight:"50px"}} src="https://i.postimg.cc/cL7mn4XS/logo.png" alt="" />
-                    &nbsp;FullBelly
+                    <img style={{maxHeight:"100px"}} src="https://i.postimg.cc/d3Gg39Vt/Picsart-23-03-30-00-05-31-692.jpg" alt="" />
+                    {/* &nbsp;FullBelly */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
