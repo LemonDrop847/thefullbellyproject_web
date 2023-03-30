@@ -13,7 +13,7 @@ class AppLinkButton extends React.Component {
   };
 
   render() {
-    return <button onClick={this.handleButtonClick}>Open My App</button>;
+    return <button className="bttn home-btn" onClick={this.handleButtonClick}>Open My App</button>;
   }
 }
 
