@@ -7,7 +7,7 @@ const NavBar = () => {
         <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand href="./#home">
-                    <img style={{maxHeight:"100px"}} src="https://i.postimg.cc/d3Gg39Vt/Picsart-23-03-30-00-05-31-692.jpg" alt="" />
+                    <img style={{maxHeight:"80px"}} src="https://i.postimg.cc/d3Gg39Vt/Picsart-23-03-30-00-05-31-692.jpg" alt="" />
                     {/* &nbsp;FullBelly */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,7 +25,7 @@ const NavBar = () => {
                     <Nav.Link href="./#blogs">Blogs</Nav.Link>
                     <Nav.Link href="./#hero">Get Involed</Nav.Link>
                     <Nav.Link href="./about">About Us</Nav.Link>
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                    <NavDropdown title="Other Links" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/deliver">Logs</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">
                             Another action
