@@ -3,11 +3,13 @@ import Foots from "../components/Footer";
 import News from "../components/News";
 import Gallery from "../components/gallery";
 import Landing from "../components/landing";
+import AppLinkButton from "../components/appButton";
 
 const Home = () => {
     return ( 
         <>
             <Landing/>
+            <AppLinkButton/>
 
         <div className="container-fluid" id="home">
             <div className="container">
