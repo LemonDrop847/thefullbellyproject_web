@@ -98,3 +98,7 @@ img{
   color: rgb(192,192,192);
   cursor: pointer;
 }
+.goal-txt{
+  font-size: xx-large;
+  font-weight: 600;
+}
