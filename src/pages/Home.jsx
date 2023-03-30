@@ -4,12 +4,13 @@ import News from "../components/News";
 import Gallery from "../components/gallery";
 import Landing from "../components/landing";
 import AppLinkButton from "../components/appButton";
+import Content from "../components/readMore";
 
 const Home = () => {
     return ( 
         <>
             <Landing/>
-            <AppLinkButton/>
+            
 
         <div className="container-fluid" id="home">
             <div className="container">
@@ -18,7 +19,7 @@ const Home = () => {
                     <div className="col">
                         <h1>Our Mission</h1>
                         <p>
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        The Full Belly Project is a non-profit organization that is committed to reducing food waste and addressing hunger issues in communities around the world. Through their various initiatives, the organization collects surplus food from local businesses and distributes it to those in need. By doing so, they are not only reducing food waste but also providing a sustainable solution to address food insecurity. The Full Belly Project is working tirelessly to ensure that no one goes hungry by redirecting surplus food to where it is most needed. Their efforts have had a significant impact on reducing food waste and helping to feed those who are struggling to make ends meet. By addressing hunger in a holistic manner, the Full Belly Project is making a meaningful difference in the lives of people around the world.
                         </p>
                         <button className="bttn home-btn">Learn More</button>
                     </div>
@@ -38,7 +39,7 @@ const Home = () => {
                         <h1>Our Vision</h1>
                         
                         <p>
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        The Full Belly Project's vision is a world where every person has access to healthy, nutritious food and is free from hunger and malnutrition. The organization firmly believes that no one should go hungry, and that food is a basic human right. To achieve this vision, the Full Belly Project is committed to developing and promoting sustainable solutions to address food insecurity, poverty, and other systemic issues that contribute to hunger. They strive to empower communities to grow their own food and create self-sustaining systems that can address food insecurity over the long term. By working towards this vision, the Full Belly Project is creating a world where everyone has the opportunity to thrive and reach their full potential, free from the burdens of hunger and malnutrition.
                         </p>
                         <button className="bttn home-btn">Learn More</button>
                     </div>
@@ -67,9 +68,10 @@ const Home = () => {
                     </div>
                     <div className="col">
                         <h1>HOW FULLBELLY APP WORKS </h1>
-                        <p>
+                        {/* <p>
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
+                        </p> */}
+                        <Content/>
                     </div>
                 </div>
                 <div className="row adjust">
@@ -83,11 +85,12 @@ const Home = () => {
                             2. Fill up profile
                             <br/>
                             3. You can now donate food / Procure food for    distribution    
-                            <br/>                
+                            <br/>       
+                            <AppLinkButton/>         
                         </p>
                     </div>
                     <div className="col" style={{textAlign:"center"}}>
-                        <img style={{maxHeight:"350px",maxWidth:"400px"}} src="https://i.postimg.cc/Y94cpGJK/process-1.jpg" alt="" />
+                        <img style={{maxHeight:"460px",maxWidth:"460px"}} src="https://i.postimg.cc/d3VjcRXT/Picsart-23-03-30-10-31-44-200.jpg" alt="" />
                     </div>
                 </div>
                 <div className="row adjust" id="blogs">
