@@ -12,7 +12,8 @@ const About = () => {
                 </h1>
                 <div className="row adjust">
                     <h2>Our Mission</h2>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+                    <p>The Full Belly Project is a non-profit organization that is committed to reducing food waste and addressing hunger issues in communities around the world. Through their various initiatives, the organization collects surplus food from local businesses and distributes it to those in need. By doing so, they are not only reducing food waste but also providing a sustainable solution to address food insecurity. The Full Belly Project is working tirelessly to ensure that no one goes hungry by redirecting surplus food to where it is most needed. Their efforts have had a significant impact on reducing food waste and helping to feed those who are struggling to make ends meet. By addressing hunger in a holistic manner, the Full Belly Project is making a meaningful difference in the lives of people around the world.
+                         </p>
                 </div>
                 <div className="row adjust">
                     <div className="col">
@@ -25,32 +26,54 @@ const About = () => {
                 <div className="row adjust">
                     <h2>Our Vision</h2>
                     <div className="sub adjust">
-
-                    <img className="goals1"src="https://i.postimg.cc/1RdVzG64/goal-01-480-2.png" alt="" />
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <a href="https://sdgs.un.org/goals/goal1" target="_blank">
+                        <img className="goals1"src="https://i.postimg.cc/1RdVzG64/goal-01-480-2.png" alt="" />
+                        {/* <button className="bttn home-btn">Learn More</button> */}
+                    </a>
+                    <p className='goal-txt'>End poverty in all its forms everywhere</p>
+                    <a href="https://sdgs.un.org/goals/goal1" target="_blank">
+                        <button className="bttn home-btn">Learn More</button>
+                    </a>
                     </div>
-                    <div className="sub adjust">
 
-                    <img className="goals2"src="https://i.postimg.cc/d0Pkwwb1/20EE-1.jpg" alt="" />
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <div className="sub adjust">
+                    {/* <p>End hunger, achieve food security and improved nutrition and promote sustainable agriculture</p> */}
+                    <a href="https://sdgs.un.org/goals/goal2" target="_blank">
+                        <img className="goals2"src="https://i.postimg.cc/d0Pkwwb1/20EE-1.jpg" alt="" />
+                    </a>
+                    <p className='goal-txt' >End hunger, achieve food security and improved nutrition and promote sustainable agriculture</p>
+                    <a href="https://sdgs.un.org/goals/goal2" target="_blank">
+                        <button className="bttn home-btn">Learn More</button>
+                    </a>
                     </div>
-                    <div className="sub adjust">
 
-                    <img className="goals1"src="https://i.postimg.cc/D0Hf6cFZ/goal-11-480-1.png" alt="" />
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <div className="sub adjust">
+                    <a href="https://sdgs.un.org/goals/goal11" target="_blank">
+                        <img className="goals1"src="https://i.postimg.cc/D0Hf6cFZ/goal-11-480-1.png" alt="" />
+                    </a>
+                    <p className='goal-txt'>Make cities and human settlements inclusive, safe, resilient and sustainable</p>
+                        
+                    <a href="https://sdgs.un.org/goals/goal11" target="_blank">
+                        <button className="bttn home-btn">Learn More</button>
+                    </a>
                     </div>
-                    <div className="sub adjust">
 
-                    <img className="goals2"src="https://i.postimg.cc/qvX06rtg/goal-12-480-2.png" alt="" />
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <div className="sub adjust">
+                    <a href="https://sdgs.un.org/goals/goal12" target="_blank">
+                        <img className="goals2"src="https://i.postimg.cc/qvX06rtg/goal-12-480-2.png" alt="" />
+                    </a>
+                    <p className='goal-txt'>Ensure sustainable consumption and production patterns</p>
+                    <a href="https://sdgs.un.org/goals/goal12" target="_blank">
+                        <button className="bttn home-btn">Learn More</button>
+                    </a>
                     </div>
                 </div>
                 <div className="row">
                     <h1>Meet The Team</h1>
                     <Card style={{ width: '18rem',marginRight:"1rem",marginLeft:"1rem" }}>
-                        <Card.Img variant="top" src="https://i.postimg.cc/L5GxQptx/tapanuli-orangutan.webp" />
+                        <Card.Img variant="top" src="https://i.postimg.cc/BQGZCxtJ/IMG-20230330-115152.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Nitin Mishra</Card.Title>
                             <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
@@ -58,9 +81,9 @@ const About = () => {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem',marginRight:"1rem",marginLeft:"1rem" }}>
-                        <Card.Img variant="top" src="https://i.postimg.cc/L5GxQptx/tapanuli-orangutan.webp" />
+                        <Card.Img variant="top" src="https://i.postimg.cc/wvTTDHBL/anil.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Anil kumar Behera</Card.Title>
                             <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
@@ -68,9 +91,9 @@ const About = () => {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem',marginRight:"1rem",marginLeft:"1rem" }}>
-                        <Card.Img variant="top" src="https://i.postimg.cc/L5GxQptx/tapanuli-orangutan.webp" />
+                        <Card.Img variant="top" src="https://i.postimg.cc/P5gwbLGZ/santi.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Kumar Santosh</Card.Title>
                             <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
@@ -78,9 +101,9 @@ const About = () => {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem',marginRight:"1rem",marginLeft:"1rem" }}>
-                        <Card.Img variant="top" src="https://i.postimg.cc/L5GxQptx/tapanuli-orangutan.webp" />
+                        <Card.Img variant="top" src="https://i.postimg.cc/Kcp4rKBz/jayant.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Jayant Agarwal</Card.Title>
                             <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.

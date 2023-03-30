@@ -8,10 +8,7 @@ const Landing = () => {
                         <h1 className="title">FULL BELLY</h1>
                         <br />
                         <br />
-                        {/* <div className="line"> */}
-
                         <p id="land-txt">Together, we can make a difference in decreasing hunger and supporting those in need. Join us in our efforts to help make the world a better place.</p>
-                        {/* </div> */}
 
                     </div>
                     <div className="col" style={{textAlign:"right"}}>
